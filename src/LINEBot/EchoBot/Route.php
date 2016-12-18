@@ -66,7 +66,7 @@ class Route
                     continue;
                 }
 
-               $replyText = ' {$event->getText()}」ですね。わかりました。そんなときには山越の釜玉うどん。http://yamagoeudon.com
+               $replyText = ' $event->getText() ですね。わかりました。そんなときには山越の釜玉うどん。http://yamagoeudon.com
 EOM';
                 
                 //  $replyText = $event->getText(); //
