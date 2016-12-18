@@ -66,8 +66,10 @@ class Route
                     continue;
                 }
 
-                $replyText = 'aaaaa';
-                             //  $replyText = $event->getText(); //
+                $replyText = 'じゅげむじゅげむ　ごこうのすりきれ　かいじゃりすいぎょのすいぎょうまつうんらいまつふうらいまつ　くうねるところにすむところ　やぶらこうじのぶらこうじ　ぱいぽぱいぽぱいぽのしゅーりんがん　しゅーりんがんのぐーりんだい　ぐーりんだいのぽんぽこぴーのぽんぽこなのちょうきゅうめいのちょうすけ';
+                
+                //  $replyText = $event->getText(); //
+                
                 $logger->info('Reply text: ' . $replyText);
                 $resp = $bot->replyText($event->getReplyToken(), $replyText);
                 $logger->info($resp->getHTTPStatus() . ': ' . $resp->getRawBody());
