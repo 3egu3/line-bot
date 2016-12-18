@@ -66,7 +66,7 @@ class Route
                     continue;
                 }
 
-               $replyText  = $event->getText()　あああ　;
+               $replyText  = $event->getText()　'あああ'　;
                 
                 //  $replyText = $event->getText(); //
                 
