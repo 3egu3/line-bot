@@ -66,8 +66,8 @@ class Route
                     continue;
                 }
 
-                「{$requestText}」ですね。わかりました。そんなときには山越の釜玉うどん。http://yamagoeudon.com
-EOM;
+               $replyText = ' {$requestText}」ですね。わかりました。そんなときには山越の釜玉うどん。http://yamagoeudon.com
+EOM';
                 
                 //  $replyText = $event->getText(); //
                 
